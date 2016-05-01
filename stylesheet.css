@@ -3,5 +3,8 @@ h1{
 }
 
 img{
-  width:250px;
+  /*set the width of all images to 25% of the viewport, and add a green border with rounded corners*/
+  width:25%;
+  border: 2px solid green;
+  border-radius:3px;
 }
