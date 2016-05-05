@@ -14,7 +14,7 @@ li{
 }
 #main{
   display:block;
-  height:400px;
+  height:800px;
   width: 100%;
   background: #33ccff;
 }
@@ -42,4 +42,11 @@ p{
 article{
   height: 120px;
   border: 1px dotted white;
+}
+
+footer{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  color:green;
 }
