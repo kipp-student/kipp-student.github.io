@@ -7,6 +7,6 @@ $(document).ready(function(){
 	
 	$("img").on("click", function() {
 		event.preventDefault();
-		$(this).fadeOut().delay(1000).fadeIn();
+		$(this).css(opacity, 0.0).delay(500).css(opacity,0.5).delay(500).css(opacity, 1.0);
 	});
 })
