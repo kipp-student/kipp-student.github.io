@@ -12,11 +12,6 @@ body{
   background-color:#8BD1E8;
 }
 
-#picture_holder{
-  height:400px;
-  display:block;
-}
-
 #number_holder{
   width:50px;
   border:1px solid blue;
