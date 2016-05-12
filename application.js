@@ -7,8 +7,6 @@ $(document).ready(function(){
 	
 	$("img").on("click", function() {
 		event.preventDefault();
-		var num = Math.floor((Math.random() * 100) + 1);
 		$(this).fadeOut().delay(1000).fadeIn();
-		
 	});
 })
