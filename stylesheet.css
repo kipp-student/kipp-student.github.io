@@ -3,13 +3,17 @@ h1{
 }
 
 img{
-  /*set the width of all images to 25% of the viewport, and add a green border with rounded corners*/
   width: 25%;
   border: 3px solid green;
   border-radius: 15px;
-  opacity: 0.6;
 }
 
 body{
   background-color:#8BD1E8;
+}
+
+#number_holder{
+  width:50px;
+  border:1px solid blue;
+  border-radius: 6px;
 }
