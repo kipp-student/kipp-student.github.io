@@ -7,6 +7,6 @@ $(document).ready(function(){
 	
 	$("img").on("click", function() {
 		event.preventDefault();
-		$(this).css(opacity, 0.0).delay(500).css(opacity,0.5).delay(500).css(opacity, 1.0);
+		$(this).css(opacity, 0.0).delay(500).css("opacity",0.5).delay(500).css("opacity", 1.0);
 	});
 })
